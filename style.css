@@ -1,0 +1,338 @@
+/* Mulish font from google font*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&family=Work+Sans:wght@400;500;700;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/*nav style start here*/
+.nav-section{
+    display: flex;
+    justify-content: center;
+}
+.nav-container{
+    display: flex;
+    width: 15%;
+    
+   margin-right: 130px;
+    padding-right: 70px;
+    margin-left: 0px;
+    
+}
+.nav-container img{
+    
+    height: 56.008px;
+    flex-shrink: 0;
+}
+.nav-name-1{
+    color: #131318;
+font-family: Mulish;
+font-size: 36px;
+
+font-weight: 800;
+padding-top: 0px;
+}
+.nav-name-2{
+    color: #FF5400;
+}
+.nav-item > ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.nav-item > ul > li{
+    padding-left: 20px;
+ 
+}
+.nav-item a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+.home{
+    color: #FF5400;
+}
+/* nav style end here*/
+
+/**//*fast section start here*/
+ .fast-section{
+    justify-content: center;
+    text-align: center;
+ }
+ .head-1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800; 
+ }
+ .text-decoration{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+ }
+ /*here  4 butoon style */
+ .fast-section{
+    background-image: url(./B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-co
+ }
+ .serch-button{
+    display: flex;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    
+ }
+ .btn{
+    
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+ }
+ /* 2nd section*/
+ .second-section{
+    display: flex;
+    margin: 115px auto;
+   justify-content: center;
+}
+.text-list{
+   /* width: 1440px;
+height: 6940px;*/
+background: #FFF;
+border: 1px solid green;
+padding-right: 40px;
+line-height: 46px;
+}
+
+ .head-2{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+ }
+ .text-decoration-1{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+ }
+ 
+ .second-section-img img{
+    width: 540px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid green;
+}
+.button-red{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+/* 3rd section*/
+.threed-section{
+    text-align: center;
+    justify-content: center;
+}
+.flex-picture-3 img{
+    gap: 30px;
+    padding: 8px;
+}
+.flex-picture-2 img{
+    padding: 8px;
+}
+.flex-picture-4 img{
+    padding: 8px;
+}/*
+fourth section  start --Why Choose Us*/
+.fourth-section{
+    text-align: center;
+    padding-right: 10px;
+
+}
+.tour-concept{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+   /* display: grid;
+    grid-template-columns: repeat(2, 2fr);*/
+}
+.hostel{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+text-align: left;
+padding-left: 18px;
+}
+.place-map{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+text-align: left;
+padding-left: 18px;
+}
+.notise{
+ width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+text-align: left;
+justify-content: center;
+padding: 20px auto;
+padding-left: 18px;
+}
+/*5th secton - background image is overight*/
+.fiveth-section{
+    padding: 80px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 255, 13);
+    height: 1555px;
+}
+.fiveth-section-img{
+    height: 1555px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid red;
+}
+.blur-image{
+    background-image: url(./B9A2-Hero-Travel-main/Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+   /* width: 579px;
+height: 389px;
+.blur-image-2
+flex-shrink: 0;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+text-align: left;
+border: 2px solid red;
+}*/
+.blur-image-2{
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+flex-shrink: 0;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+text-align: left;
+padding-left: 30px;
+}
+.price{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+/*last-section*/
+.last-section{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+#name {
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+color: rgba(19, 19, 24, 0.30);
+font-size: 16px;;
+font-weight: 400;
+}
+#submit{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+}
+.last-input-box{
+    width: 472px;
+    height: 400px;
+    flex-shrink: 0;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.last-section-image img{
+    width: 682px;
+    height: 432px;
+    flex-shrink: 0;
+    padding: 50px;
+    border-radius: 15px;
+}
+/* footer section start*/
+footer{
+    
+height: 502px;
+flex-shrink: 0;
+background: rgb(17, 0, 0);
+}
+.fotter-container{
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+.text-decoration-2 {
+  text-align: center;
+  color: white;
+}
+.footer-icon {
+    text-align: center;
+    
+}
+.footer-icon img{
+    padding: 30px;
+}
+.horijental{
+    width: 872px;
+height: 2px;
+}
