@@ -27,7 +27,7 @@
     color: #131318;
 font-family: Mulish;
 font-size: 36px;
-
+margin-top: 1px;
 font-weight: 800;
 padding-top: 0px;
 }
@@ -78,7 +78,7 @@ line-height: 26px;
  }
  /*here  4 butoon style */
  .fast-section{
-    background-image: url(./B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image:url(./Images/image 1.png)
     background-repeat: no-repeat;
     background-position: center;
     background-co
@@ -187,7 +187,7 @@ border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
 text-align: left;
-padding-left: 18px;
+padding: 20px;
 }
 .place-map{
     width: 573px;
@@ -197,7 +197,7 @@ border-radius: 16px;
 border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
 text-align: left;
-padding-left: 18px;
+padding: 20px;
 }
 .notise{
  width: 573px;
@@ -209,7 +209,7 @@ background: rgba(233, 68, 68, 0.05);
 text-align: left;
 justify-content: center;
 padding: 20px auto;
-padding-left: 18px;
+padding: 20px;
 }
 /*5th secton - background image is overight*/
 .fiveth-section{
@@ -228,9 +228,12 @@ padding-left: 18px;
     border: 2px solid red;
 }
 .blur-image{
-    background-image: url(./B9A2-Hero-Travel-main/Images/Group\ 39.png);
+    background-image: url(./Images/suimingful-1.png);
     background-repeat: no-repeat;
     background-position: center;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
 }
    /* width: 579px;
 height: 389px;
@@ -254,6 +257,21 @@ background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
 text-align: left;
 padding-left: 30px;
+}
+/*icon fram digaine*/
+.icon-frm{
+    padding-top: 25px;
+}
+.icon-frm img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.icon-time{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
 }
 .price{
     color: #FF5400;
