@@ -58,9 +58,21 @@ padding-top: 0px;
 /* nav style end here*/
 
 /**//*fast section start here*/
+.back-img{
+    background-image: url(Images/Recte\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
  .fast-section{
     justify-content: center;
     text-align: center;
+    background-repeat: no-repeat;
+    
+
+flex-shrink: 0;
+background-position: center;
  }
  .head-1{
     color: #FFF;
@@ -81,20 +93,22 @@ line-height: 26px;
     background-image:url(./Images/image 1.png)
     background-repeat: no-repeat;
     background-position: center;
-    background-co
  }
  .serch-button{
-    display: flex;
     display: inline-flex;
-    padding: 16px;
-    align-items: flex-start;
-    gap: 24px;
-    
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
  }
  .btn{
     
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
+    width: 100px;
+    gap: 20px;
  }
  /* 2nd section*/
  .second-section{
@@ -353,4 +367,38 @@ background: rgb(17, 0, 0);
 .horijental{
     width: 872px;
 height: 2px;
+}
+
+@media screen  and ( max-width: 992){
+    header{
+        padding: 20px;
+    }
+    .nav-container, .nav-item, .second-section, .last-section,.fotter-container {
+        flex-direction: column;
+    }
+    .fast-section{
+    width: 300px;
+    }
+    .fiveth-section-img, .last-section,.fotter-container,.fourth-section,.fiveth-section-img{
+
+    grid-template-columns: 1fr;
+    padding: 40px;
+    }
+    .fiveth-section{
+        padding: 40px auto;
+        text-align: center;
+        
+        align-items: center;
+    }   
+    .notise{
+        width: 273px;
+       
+       
+       border-radius: 16px;
+       
+       text-align: left;
+       justify-content: center;
+       padding: 20px auto;
+       padding: 20px; 
+
 }
